@@ -71,3 +71,6 @@ This setup is intentional because:
     Ensures movement: By advancing fast once before the loop, you guarantee that the fast pointer is always ahead, so the cycle detection works properly.
 
     Consistency with Floyd’s algorithm: In linked list cycle detection, the fast pointer usually starts one step ahead to prevent false positives at the beginning. */
+
+    //142 — Linked List Cycle II
+    //457 — Circular Array Loop
