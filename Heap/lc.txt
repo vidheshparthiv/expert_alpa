@@ -1,0 +1,135 @@
+🟢 Level 1 – Heap Basics (Easy)
+
+Learn Min Heap, Max Heap, offer(), poll(), peek().
+
+LeetCode	Problem	Pattern
+703	Kth Largest Element in a Stream	Fixed Min Heap
+1046	Last Stone Weight	Max Heap
+506	Relative Ranks	Max Heap
+2558	Take Gifts From the Richest Pile	Max Heap
+1962	Remove Stones to Minimize the Total	Max Heap
+2208	Minimum Operations to Halve Array Sum	Max Heap
+
+🟡 Level 2 – Top K Problems
+
+These are asked in almost every interview.
+
+LeetCode	Problem	Pattern
+215	Kth Largest Element in an Array	Min Heap
+347	Top K Frequent Elements	Frequency + Min Heap
+692	Top K Frequent Words	Frequency + Heap
+973	K Closest Points to Origin	Max Heap
+658	Find K Closest Elements	Heap
+451	Sort Characters By Frequency	Max Heap
+1481	Least Number of Unique Integers after K Removals	Min Heap
+1636	Sort Array by Increasing Frequency	Heap + Map
+
+🟠 Level 3 – Merge Problems
+
+Very common in Google/Amazon interviews.
+
+LeetCode	Problem	Pattern
+23	Merge K Sorted Lists	Min Heap
+378	Kth Smallest Element in a Sorted Matrix	Min Heap
+373	Find K Pairs with Smallest Sums	Min Heap
+632	Smallest Range Covering Elements from K Lists	Heap
+264	Ugly Number II	Heap
+313	Super Ugly Number	Heap
+🔵 Level 4 – Scheduling Problems
+
+Heap + Greedy
+
+LeetCode	Problem	Pattern
+621	Task Scheduler	Max Heap
+630	Course Schedule III	Max Heap
+1834	Single Threaded CPU	Heap
+2402	Meeting Rooms III	Two Heaps
+253	Meeting Rooms II (Premium)	Min Heap
+759	Employee Free Time (Premium)	Heap
+🟣 Level 5 – Median Problems
+
+Uses Two Heaps
+
+LeetCode	Problem	Pattern
+295	Find Median from Data Stream	Two Heaps
+480	Sliding Window Median	Two Heaps
+1825	Finding MK Average	Two Heaps
+🔴 Level 6 – Advanced Heap
+LeetCode	Problem	Pattern
+239	Sliding Window Maximum	Heap / Deque
+857	Minimum Cost to Hire K Workers	Heap
+871	Minimum Number of Refueling Stops	Max Heap
+1167	Minimum Cost to Connect Sticks	Min Heap
+1353	Maximum Number of Events That Can Be Attended	Heap
+1383	Maximum Performance of a Team	Min Heap
+1642	Furthest Building You Can Reach	Min Heap
+1675	Minimize Deviation in Array	Heap
+1792	Maximum Average Pass Ratio	Heap
+2233	Maximum Product After K Increments	Min Heap
+2462	Total Cost to Hire K Workers	Two Heaps
+2542	Maximum Subsequence Score	Heap
+2813	Maximum Elegance of a K-Length Subsequence	Heap
+🟤 Graph + Heap (Dijkstra)
+
+These combine graphs with priority queues.
+
+LeetCode	Problem
+743	Network Delay Time
+778	Swim in Rising Water
+1631	Path With Minimum Effort
+1514	Path with Maximum Probability
+1976	Number of Ways to Arrive at Destination
+499	The Maze III
+⚫ Heap + HashMap
+LeetCode	Problem
+767	Reorganize String
+358	Rearrange String K Distance Apart
+1405	Longest Happy String
+767	Reorganize String
+621	Task Scheduler
+🟢 Heap Design Problems
+LeetCode	Problem
+355	Design Twitter
+703	Kth Largest Stream
+295	Median Finder
+1825	MKAverage
+Hard Problems
+
+These are some of the toughest heap questions.
+
+LeetCode	Problem
+23	Merge K Sorted Lists
+239	Sliding Window Maximum
+295	Median Finder
+632	Smallest Range
+857	Hire K Workers
+1675	Minimize Deviation
+2813	Maximum Elegance
+480	Sliding Window Median
+Must-Do Interview Problems ⭐⭐⭐⭐⭐
+
+If you have limited time, complete these first:
+
+✅ 703 – Kth Largest Element in a Stream
+✅ 1046 – Last Stone Weight
+✅ 215 – Kth Largest Element in an Array
+✅ 347 – Top K Frequent Elements
+✅ 973 – K Closest Points to Origin
+✅ 692 – Top K Frequent Words
+✅ 23 – Merge K Sorted Lists
+✅ 378 – Kth Smallest Element in a Sorted Matrix
+✅ 621 – Task Scheduler
+✅ 295 – Find Median from Data Stream
+✅ 373 – Find K Pairs with Smallest Sums
+✅ 239 – Sliding Window Maximum
+✅ 1167 – Minimum Cost to Connect Sticks
+✅ 1642 – Furthest Building You Can Reach
+✅ 871 – Minimum Number of Refueling Stops
+
+
+
+
+
+docker volume ls 
+docker run -it --name volume-container -v 
+docker volume rm volume-name
