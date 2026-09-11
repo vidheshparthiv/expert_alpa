@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Heap/|Two_Pointer/|Sorting/|Two_Pointer/Fast_And_Slow/" kind="src" path=""/>
+	<classpathentry kind="src" path="Heap"/>
+	<classpathentry kind="src" path="Sorting"/>
+	<classpathentry excluding="Fast_And_Slow/" kind="src" path="Two_Pointer"/>
+	<classpathentry kind="src" path="Two_Pointer/Fast_And_Slow"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
