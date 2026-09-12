@@ -3,6 +3,7 @@ package binarytree;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 public class BinaryArray {
 	//inorder root -> left -> right 
 	public void inorder(int []arr,int p) {
