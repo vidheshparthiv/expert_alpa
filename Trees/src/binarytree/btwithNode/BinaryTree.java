@@ -95,5 +95,24 @@ public class BinaryTree {
 		}
 		return 1+countNoOfNodes(root.left)+countNoOfNodes(root.right);
 	}
+	
+	public int countLeaves(BinaryTreeNode root) {
+		if(root==null) {
+			return 0;
+		}
+		if(root.left==null&&root.right==null) {
+			return 1;
+		}
+		return countLeaves(root.left)+countLeaves(root.right);
+	}
+	
+	static int sumNodes(BinaryTreeNode root) {
+	    if (root==null) {
+	        return 0;
+	    }
+	    return root.val
+	           + sumNodes(root.left)
+	           + sumNodes(root.right);
+	}
 }
 
