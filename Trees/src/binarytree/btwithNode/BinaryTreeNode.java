@@ -2,8 +2,8 @@ package binarytree.btwithNode;
 
 public class BinaryTreeNode {
 	int val;
-	BinaryTreeNode left;
-	BinaryTreeNode right;
+	public BinaryTreeNode left;
+	public BinaryTreeNode right;
 	
 	BinaryTreeNode(int val){
 		this.val=val;
