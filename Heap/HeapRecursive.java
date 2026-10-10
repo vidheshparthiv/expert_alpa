@@ -34,7 +34,6 @@ public class HeapRecursive {
     static void heapSort(int[] a) {
         int n = a.length;
         buildMaxHeap(a);
-
         for (int i = n - 1; i > 0; i--) {
             int temp = a[0];
             a[0] = a[i];
